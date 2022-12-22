@@ -1,5 +1,7 @@
 <?php 
 
+//if logged in user has capability to manage options save tracking ID from input field
+
 function ga4forwp_options_page_html() {
   if ( ! current_user_can( 'manage_options' ) ) {
     return;
@@ -12,6 +14,8 @@ function ga4forwp_options_page_html() {
   $tracking_id = get_option( 'ga4forwp_tracking_id' );
   ?>
   
+<!-- HTML OUTPUT IN OPTIONS PAGE OF PLUGIN WHERE USER CAN TYPE OR PASTE GOOGLE ANALYTICS TRACKING ID -->
+
   <div class="wrap">
     <h1><?php echo esc_html( get_admin_page_title() ); ?></h1>
 	<p class="description">Enter your Google Analytics 4 tracking ID in field below.</p>
