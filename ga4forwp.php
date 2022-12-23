@@ -36,3 +36,7 @@ function ga4forwp_tracking_code() {
   }
 }
 add_action( 'wp_enqueue_scripts', 'ga4forwp_tracking_code' );
+
+
+
+

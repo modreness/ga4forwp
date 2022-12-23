@@ -1,10 +1,10 @@
 === Basic Google Analytics 4 for WP ===
-Contributors: 
+Contributors: zanychew
 Tags: analytics, google analytics 4
 Requires at least: 4.9
 Tested up to: 6.1.1
 Stable tag: 1.0
-Requires PHP: 5.6 or later
+Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,8 +25,8 @@ Click on Add new button
 Choose zip file ga4forwp and click on Install
 Activate
 
-You need to get Google Analytics 4 tracking ID from your Google
-Analytics dashboard, and just copy tracking ID and paste into field 
-on options page of plugin. 
+You need to get Google Analytics 4 tracking ID from your Google 
+Analytics dashboard (<a href="https://support.google.com/analytics/answer/9304153?hl=en&ref_topic=9303319">see this guide</a>), and just copy tracking ID and paste into field 
+on options page of plugin. Options page of plugin are under Settings menu in WordPress dashboard.
 
 
